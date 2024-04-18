@@ -1,4 +1,3 @@
-# GITHUB
 # HOW TO UPLOAD GIT REPOSITORY to GITHUB
 
 # STEP 1 change directory to where you want to initialize repository
@@ -27,7 +26,8 @@ to check your current branch / branches
 to check your remote URL
 
 # git log    git log --oneline
-shows the commit history of the current branch, including commit messages, authors, dates, and commit hashes. It's useful for understanding the history of changes in your repository.
+shows the commit history of the current branch, including commit messages, authors, dates, and commit hashes. 
+It's useful for understanding the history of changes in your repository.
 
 # git pull origin name_of_your_branch
 git pull to fetch and merge those changes into your local repository.
