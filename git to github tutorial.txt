@@ -17,7 +17,7 @@ git commit -m " your_message_here "
 git push origin name_of_your_branch
 
 
-#ADDITIONAL:
+#ADDITIONAL METHODS:
 
 # git branch
 to check your current branch / branches
