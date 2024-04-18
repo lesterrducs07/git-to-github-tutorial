@@ -1,0 +1,63 @@
+# GITHUB
+# HOW TO UPLOAD GIT REPOSITORY to GITHUB
+
+
+# STEP 1 change directory to where you want to initialize repository
+cd path/to/your/directory/here
+
+
+# STEP 2 see which files to modified and staged for commit
+git status
+
+
+#STEP 3 add files to staging are
+git add name_of_file
+git add . to add all files in the folder
+
+
+#STEP 4 all added items can now commit
+git commit -m " your_message_here "
+
+
+#STEP 5 will move all your files from local repository to remote repository(github)
+git push origin name_of_your_branch
+
+
+#ADDITIONAL:
+
+
+# git branch
+to check your current branch / branches
+
+
+# git remote -v
+to check your remote URL
+
+
+# git log    git log --oneline
+shows the commit history of the current branch, including commit messages, authors, dates, and commit hashes. It's useful for understanding the history of changes in your repository.
+
+
+# git pull origin name_of_your_branch
+git pull to fetch and merge those changes into your local repository.
+
+
+
+# git fetch name_of_your_branch
+similar to git pull, retrieves changes from the remote repository, but it doesn't automatically merge them into your local branch
+
+
+
+# git checkout name_of_your_branch
+used to switch branches or restore files from an older commit. 
+
+
+# git merge other_branch_name
+merge changes from another branch into your current branch
+
+
+# git rm name_of_your_file     ex. excel.xlsx
+remove files from the working directory and staging area
+
+
+# git help
